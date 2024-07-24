@@ -6,9 +6,9 @@ Now that AppLocker is enabled but in Auditing mode, I need to be able to see wha
 
 ## Creating AppLocker Event Viewer Custom View
 
-Like in Chapter 1, AppLocker is buried deep within several submenus in the Group Policy Editor. This is also the case when it comes to Windows Event Viewer. A quick and easy way to access the AppLocker logs in Event Viewer is to create a custom view which I will demonstrate below.
+Like in Chapter 1, AppLocker is buried deep within several submenus in the Group Policy Editor. This is also the case with Windows Event Viewer. A quick and easy way to access the AppLocker logs in Event Viewer is to create a custom view, which I will demonstrate below.
 
-To start, click on the Windows Search box in the bottom left of the Windows PC and search for "event viewer" and click on the "Event Viewer" result with the notebook icon that should be the best result.
+To start, click on the Windows Search box in the bottom left of the Windows PC search for "event viewer", and click on the "Event Viewer" result with the notebook icon that should be the best result.
 
 ![Event Viewer Windows Search Box](/Images/AL-img17.png)
 
@@ -16,13 +16,13 @@ To create the Custom View now that the Windows Event Viewer window is open, righ
 
 ![Windows Event Viewer](/Images/AL-img18.png)
 
-In the "Create Custom View" window, left-click the dropdown button in the same line as "Event Logs" to open the menu to select which logs will be used for this new Custom View.
+In the "Create Custom View" window, left-click the dropdown button in the same line as "Event Logs" to open the menu and select which logs will be used for this new Custom View.
 
 To only select the AppLocker logs without selecting all the other logs, navigate through the path below and only enable the checkbox labeled "AppLocker".
 
 AppLocker Log Path: **Applications and Services Logs > Microsoft > Windows > AppLocker**
 
-This should only enable the logs for AppLocker for this Custom View and also the sub log categories for AppLocker as shown in the images below:
+This should only enable the logs for AppLocker for this Custom View and also the sub-log categories for AppLocker, as shown in the images below:
 
 ![Create Custom View window](/Images/AL-img19.png)
 ![Create Custom View window](/Images/AL-img20.png)
@@ -31,7 +31,7 @@ To finish creating the new custom view, I clicked the "OK" button near the botto
 
 ![Create Custom View window](/Images/AL-img21.png)
 
-After clicking "OK" I'm now on the "Save Filter to Custom View" window. Here, I changed the name of the new custom view to "AppLocker" and then clicked the "OK" button on the right side of the window to finish creating the custom view.
+After clicking "OK", I'm now in the "Save Filter to Custom View" window. Here, I changed the name of the new custom view to "AppLocker" and then clicked the "OK" button on the right side of the window to finish creating the custom view.
 
 ![Save Filter to Custom View window](/Images/AL-img22.png)
 
