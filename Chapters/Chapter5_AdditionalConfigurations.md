@@ -21,7 +21,7 @@ Set-ExecutionPolicy -ExecutionPolicy Bypass -Scope Process
 ```
 
 
-By default, script's execution policies should be "Undefined" which is equivalent to "Restricted" but can be easily bypassed.
+By default, the script's execution policies should be "Undefined," which is equivalent to "Restricted" but can be easily bypassed.
 
 Below are my current PowerShell script execution policies:
 
@@ -35,7 +35,7 @@ Windows PowerShell folder path in Group Policy Editor: **Computer Configuration 
 
 ![Windows PowerShell Folder in Local Group Policy Editor Window](/Images/AL-img40.png)
 
-Double clicking on the "Turn on Script Execution" setting opens it up in a new window. In that new window, I selected the "Enabled" radio button and selected the "Allow only signed scripts" in the Execution Policy dropdown menu. I then clicked the "Apply" and then "OK" button to save the changes
+Double-clicking on the "Turn on Script Execution" setting opens it up in a new window. In that new window, I selected the "Enabled" radio button and selected the "Allow only signed scripts" in the Execution Policy dropdown menu. I then clicked the "Apply" and then "OK" button to save the changes
 
 ![Turn On Script Execution Window](/Images/AL-img41.png)
 
