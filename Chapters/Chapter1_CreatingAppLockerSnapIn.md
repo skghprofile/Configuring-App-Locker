@@ -73,3 +73,6 @@ In the options window, I changed the Console mode dropdown to "User mode - full 
 I then clicked the "OK" button and then clicked the "File" button in the top left of the window and finally the "Save" option to save the changes.
 
 ![AppLockerSnapIn.msc window](/Images/AL-img12.png)
+
+## Next Chapter: 
+### [Chapter 2 - Enabling AppLocker](/Chapters/Chapter2_EnablingAppLocker.md)
